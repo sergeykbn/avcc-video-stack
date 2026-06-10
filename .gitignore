@@ -1,0 +1,13 @@
+.DS_Store
+tmp/
+*.log
+node_modules/
+.env
+.env.local
+
+# Tidy generated project workspaces
+projects/*/tmp/
+
+# Common heavy intermediates (uncomment if you want to keep them out of git)
+# projects/*/05-storyboard-frames/attempts/
+# projects/*/07-transition-videos/attempts/
